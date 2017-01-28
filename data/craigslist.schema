@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "timestamp": {
+        "type": "string"
+      },
+      "description_heading_price_br": {
+        "type": "string"
+      },
+      "lat": {
+        "type": "string"
+      },
+      "long": {
+        "type": "string"
+      },
+      "address": {
+        "type": "string"
+      },
+      "ad_id": {
+        "type": "string"
+      },
+      "ad_url": {
+        "type": "string"
+      },
+      "student": {
+        "type": "string"
+      },
+      "artist": {
+        "type": "string"
+      },
+      "terms": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "timestamp",
+      "description_heading_price_br",
+      "lat",
+      "long",
+      "address",
+      "ad_id",
+      "ad_url",
+      "student",
+      "artist",
+      "terms"
+    ]
+  }
+}
